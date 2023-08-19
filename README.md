@@ -1,2 +1,4 @@
 # Web-Development-Projects
-Contains web development projects 
+Repo for web development projects 
+
+Projects inlcude Javascript, Typescript, Angular, React
