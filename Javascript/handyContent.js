@@ -5,9 +5,10 @@ function fib(n) {
    return fib(n-1) + fib(n-2)
 }
 
+
 function main() {
-   let val = fib(5);
-   console.log(val);
+   let val = {"fib":fib(7)};
+   console.log(val.fib);
    return;
 }
 
