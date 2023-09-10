@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from "./Components/Header"
+import Greet from "./Components/Greet"
 
-function Header() {
-   return (
-      <h1>"hello, world"</h1>
-   );
-}
 
-function App() {
-  return (<Header /> );
+function App(props) {
+  return (
+     //<Header />
+     //<h1>{props.title}</h1> passing parameters between components
+
+     <div>
+        <Header title="Welcome to G20 in India"/>
+        <Greet name="G20 Delegates"/>
+     </div>
+
+  );
 }
 
 export default App;
